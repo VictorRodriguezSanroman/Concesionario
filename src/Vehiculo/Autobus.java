@@ -12,7 +12,7 @@ public class Autobus extends Vehiculo{
         super(matricula, marca, modelo, cilindrada, potencia, velMax, color, precio);
         this.numPlazas = numPlazas;
         this.tacometro = tacometro;
-        this.numPlazas = numVentanas;
+        this.numVentanas = numVentanas;
     }
     
     //Métodos
