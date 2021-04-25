@@ -8,9 +8,11 @@ public class Concesionario {
         //Instancias de Coche
         Vehiculo coche1 = new Coche(true,true,true,"Diesel","1234 FHL","Renault","Clio","100",150,166,"Azul",4000);
         Vehiculo coche2 = new Coche (false, true, false, "gasolina", "6547 FSD", "Nissan","Micra", "110", 140,180,"Blanco",6500);
+        Vehiculo coche3 = new Coche (true, true, false, "diesel", "7896 AVB", "Lexus","200h", "150", 210,230,"Negro",20000);
         
         coche1.mostrarVehiculo();
         coche2.mostrarVehiculo();
+        coche3.mostrarVehiculo();
         
         //Instancias de Moto
         Vehiculo moto1 = new Moto (true,2, "Correa","4321 DSF","Kawasaki","Empire","150",200,250,"Verde",2030);
