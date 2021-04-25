@@ -5,12 +5,14 @@ public class Autobus extends Vehiculo{
     //Atributos especificos de la subclase
     int numPlazas;
     boolean tacometro;
+    int numVentanas;
 
     //Constructor subclase
-    public Autobus(String matricula, String marca, String modelo, String cilindrada, int potencia, double velMax, String color, double precio,int numPlazas, boolean tacometro) {
+    public Autobus(String matricula, String marca, String modelo, String cilindrada, int potencia, double velMax, String color, double precio,int numPlazas, boolean tacometro, int numVentanas) {
         super(matricula, marca, modelo, cilindrada, potencia, velMax, color, precio);
         this.numPlazas = numPlazas;
         this.tacometro = tacometro;
+        this.numPlazas = numVentanas;
     }
     
     //Métodos
@@ -37,6 +39,7 @@ public class Autobus extends Vehiculo{
         System.out.println("Potencia: " + potencia);
         System.out.println("Velocidad máxima: " + velMax+ " Km/h");
         System.out.println("Color del vehículo: " + color);
+        System.out.println("Número de ventanas: " + numVentanas);
         System.out.println("\nPrecio original: " + precio + " €");
         importeExtra();
         System.out.println("Precio más extras sin IVA: " + precio + " €");

@@ -22,8 +22,8 @@ public class Concesionario {
         moto2.mostrarVehiculo();
         
         //Instancias de Autobus
-        Vehiculo autobus1 = new Autobus ("4567 TRE","Mercedes","Grande","250",180,190,"Rojo",10000,54,false);
-        Vehiculo autobus2 = new Autobus ("7865 TEW","Mercedes","Maxi","250",180,190,"Azul",13500,70,false);
+        Vehiculo autobus1 = new Autobus ("4567 TRE","Mercedes","Grande","250",180,190,"Rojo",10000,54,false,8);
+        Vehiculo autobus2 = new Autobus ("7865 TEW","Mercedes","Maxi","250",180,190,"Azul",13500,70,false,16);
 
         autobus1.mostrarVehiculo();
         autobus2.mostrarVehiculo();
