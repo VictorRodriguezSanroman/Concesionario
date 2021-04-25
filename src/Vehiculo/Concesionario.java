@@ -15,8 +15,8 @@ public class Concesionario {
         coche3.mostrarVehiculo();
         
         //Instancias de Moto
-        Vehiculo moto1 = new Moto (true,2, "Correa","4321 DSF","Kawasaki","Empire","150",200,250,"Verde",2030);
-        Vehiculo moto2 = new Moto (false,4, "Cardan","9875 5SF","Nissan","Ninja","160",230,280,"Negra",4550);
+        Vehiculo moto1 = new Moto (true,2, "Correa","4321 DSF","Kawasaki","Empire","150",200,250,"Verde",2030,"Grande");
+        Vehiculo moto2 = new Moto (false,4, "Cardan","9875 5SF","Nissan","Ninja","160",230,280,"Negra",4550,"Mediana");
 
         moto1.mostrarVehiculo();
         moto2.mostrarVehiculo();

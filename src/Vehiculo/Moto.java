@@ -6,13 +6,15 @@ public class Moto extends Vehiculo {
     boolean carenado;
     int tiempos; 
     String transmision;
+    String tamaño;
 
     //Constructor subclase
-    public Moto(boolean carenado, int tiempos, String transmision, String matricula, String marca, String modelo, String cilindrada, int potencia, double velMax, String color, double precio) {
+    public Moto(boolean carenado, int tiempos, String transmision, String matricula, String marca, String modelo, String cilindrada, int potencia, double velMax, String color, double precio, String tamaño) {
         super(matricula, marca, modelo, cilindrada, potencia, velMax, color, precio);
         this.carenado = carenado;
         this.tiempos = tiempos;
         this.transmision = transmision;
+        this.tamaño = tamaño;
     }
     
     //Métodos
@@ -44,6 +46,7 @@ public class Moto extends Vehiculo {
         System.out.println("Matricula: " + matricula);
         System.out.println("marca: " + marca);
         System.out.println("Modelo: " + modelo);
+        System.out.println("Tamaño: " + tamaño);
         System.out.println("Carenado: " + carenado);
         System.out.println("Tiempos: " + tiempos);
         System.out.println("Transmisión ((Cadena, correa o cardán): " + transmision);
